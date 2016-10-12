@@ -1,0 +1,24 @@
+M01_V0000 Training Model Set
+
+Model set description
+	Model simulation period is for 1999-01-01 to 2003-12-31, with 1999 as the warm-up year.
+	Example model set examines base model, and alternatives containing the one-mile Tamiami Trail bridge and/or the L31N seepage barrier.
+	Tamiami Trail bridge was implemented by changing culverts 56, 57, and 58 to 'no flow', and adding one-mile weir to canal 'culvert57' called 'TTbridge5mi'.
+	L31N seepage barrier was implemented by increasing up-down length of cells in miami oolite and setting them to inactive cells. These changes are seen in the Oolite 'lower level' file and in the addition of an internal boundary condition to the Miami Oolite layer.
+
+Model Descriptions
+	ExampleBase
+		No Tamiami Trail bridge
+		No L31N seepage barrier
+
+	ExampleAlt1 (Base + bridge)
+		One-mile Tamiami Trail bridge
+		No L31N seepage barrier
+
+	ExampleAlt2 (Base + seepage barrier)
+		No Tamiami Trail bridge
+		Full 5-mile L31N seepage barrier
+
+	ExampleAlt3 (Base + bridge and seepage barrier)
+		One-mile Tamiami Trail bridge
+		Full 5-mile L31N seepage barrier
