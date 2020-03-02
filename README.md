@@ -13,3 +13,4 @@ After entering that command you should be able to successfully clone the repo to
 You can add the 'export GIT_SSL_NO_VERIFY=1' command to .bash_profile in your Git home directory to avoid having to repeat this step each time you log onto Bash.
 
  
+(test)
